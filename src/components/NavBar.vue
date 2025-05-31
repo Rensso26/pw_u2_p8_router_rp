@@ -6,6 +6,7 @@
     <router-link to="/card">Card</router-link> |
     <router-link to="/contador">Contador</router-link> |
     <router-link to="/pregunta">Pregunta</router-link> |
+    <router-link to="/pelicula">Pelicula</router-link> |
   </nav>
 </div>
 </template>

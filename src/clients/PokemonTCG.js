@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const consultarCartas = async () => {
-  const totalPages = 70;
+  const totalPages = 72;
   const paginaAleatoria = Math.floor(Math.random() * totalPages) + 1;
 
   const respuesta = await axios.get(

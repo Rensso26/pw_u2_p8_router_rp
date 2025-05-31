@@ -16,12 +16,12 @@ const routes = [
     component: EstudianteView
   },
   {
-    path: '/Tabla',
+    path: '/tabla',
     name: 'estudianteTablaView',
     component: EstudianteTablaView
   },
   {
-    path: '/Pelicuka',
+    path: '/pelicula',
     name: 'peliculaView',
     component: PeliculaView
   },
@@ -44,6 +44,11 @@ const routes = [
     path: '/pregunta',
     name: 'PreguntaVue',
     component: () => import(/* webpackChunkName: "CardView" */ '../views/PreguntaView.vue')
+  },
+  {
+    path: '/pelicula',
+    name: 'PeliculaVue',
+    component: () => import(/* webpackChunkName: "CardView" */ '../views/PeliculaView.vue')
   },
 
 ]
