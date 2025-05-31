@@ -124,6 +124,7 @@ export default {
       console.log(anio);
       const mes = this.$route.query.mes;
       console.log(mes);
+      console.log('mounted')
   },
   beforeUpdate(){
     console.log('beforeUpdate')
