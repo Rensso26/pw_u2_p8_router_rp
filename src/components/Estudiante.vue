@@ -108,7 +108,35 @@ export default {
       console.log(mes);
     },
   },
-
+  beforeCreate(){
+    console.log('beforeCreate')
+  },
+  created(){
+    console.log("Create")
+  },
+  beforeMount(){ 
+    console.log('BeforeMount')
+  },
+  mounted(){
+     const cedula = this.$route.params.cedula;
+      console.log(cedula);
+      const anio = this.$route.query.anio;
+      console.log(anio);
+      const mes = this.$route.query.mes;
+      console.log(mes);
+  },
+  beforeUpdate(){
+    console.log('beforeUpdate')
+  },
+  updated(){
+    console.log('update')
+  },
+  beforeUnmount(){
+    console.log('beforeUnmont')
+  },
+  unmounted(){
+    console.log('unmounted')
+  }
 };
 </script>
 
