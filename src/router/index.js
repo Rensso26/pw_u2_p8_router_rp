@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import EstudianteView from '../views/EstudianteView.vue'
 import PeliculaView from '../views/PeliculaView.vue'
 import EstudianteTablaView from '../views/EstudianteTablaView.vue'
-
+import PokemonView from '../views/PokemonView.vue'
 const routes = [
   {
     path: '/',
@@ -24,6 +24,11 @@ const routes = [
     path: '/pelicula',
     name: 'peliculaView',
     component: PeliculaView
+  },
+  {
+    path: '/pokemon',
+    name: 'pokemonView',
+    component: PokemonView
   },
   {
     path: '/about',

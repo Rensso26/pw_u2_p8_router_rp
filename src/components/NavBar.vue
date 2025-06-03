@@ -7,6 +7,7 @@
     <router-link to="/contador">Contador</router-link> |
     <router-link to="/pregunta">Pregunta</router-link> |
     <router-link to="/pelicula">Pelicula</router-link> |
+    <router-link to="/pokemon">Pokemon</router-link> |
   </nav>
 </div>
 </template>
