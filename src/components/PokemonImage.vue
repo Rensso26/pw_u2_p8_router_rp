@@ -21,10 +21,10 @@ export default {
       type: Number,
       required: true,
     },
-    mostrarImagen:{
-        type: Boolean,
-        required: true,
-        default: false,
+    mostrarImagen: {
+      type: Boolean,
+      required: true,
+      default: false,
     },
   },
   data() {
@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 img {
   height: 200px;
   position: absolute;
