@@ -8,6 +8,7 @@
     <router-link to="/pregunta">Pregunta</router-link> |
     <router-link to="/pelicula">Pelicula</router-link> |
     <router-link to="/pokemon">Pokemon</router-link> |
+    <router-link to="/responsivo">Responsivo</router-link> |
   </nav>
 </div>
 </template>

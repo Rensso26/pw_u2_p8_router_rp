@@ -55,6 +55,12 @@ const routes = [
     name: 'PeliculaVue',
     component: () => import(/* webpackChunkName: "CardView" */ '../views/PeliculaView.vue')
   },
+   {
+    path: '/responsivo',
+    name: 'ComponenteResponsivo',
+    component: () => import(/* webpackChunkName: "CardView" */ '../views/ResponsivoView.vue')
+  },
+
 
 ]
 
