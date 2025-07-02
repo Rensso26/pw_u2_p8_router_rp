@@ -9,6 +9,8 @@
     <router-link to="/pelicula">Pelicula</router-link> |
     <router-link to="/pokemon">Pokemon</router-link> |
     <router-link to="/responsivo">Responsivo</router-link> |
+    <router-link to="/estudiantesapi">Estudiantes API</router-link> |
+    <router-link to="/estudianteapi">Estudiante API</router-link> |
   </nav>
 </div>
 </template>

@@ -60,7 +60,16 @@ const routes = [
     name: 'ComponenteResponsivo',
     component: () => import(/* webpackChunkName: "CardView" */ '../views/ResponsivoView.vue')
   },
-
+     {
+    path: '/estudiantesapi',
+    name: 'EstuantesAPI',
+    component: () => import(/* webpackChunkName: "CardView" */ '../views/EstudiantesApiView.vue')
+  },
+  {
+    path: '/estudianteapi',
+    name: 'EstuanteAPI',
+    component: () => import(/* webpackChunkName: "CardView" */ '../views/EstudianteApiView.vue')
+  },
 
 ]
 
